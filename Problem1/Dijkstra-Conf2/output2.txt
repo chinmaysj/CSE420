@@ -1,0 +1,31 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Oct  8 2018 18:29:20
+gem5 started Oct  8 2018 18:42:52
+gem5 executing on Chinmay-Laptop, pid 3447
+command line: /home/chinmaysj96/Desktop/project/gem52/gem5/build/ARM/gem5.opt -d /home/chinmaysj96/Desktop/project/gem52/gem5/Dijkstra-Conf2 /home/chinmaysj96/Desktop/project/gem52/gem5/configs/example/se.py --cpu-type=TimingSimpleCPU --caches --l1d_size=2kB --l1d_assoc=1 --cacheline_size=16 --l2cache --num-l2caches=1 --l2_size=16kB --l2_assoc=16 --l1i_size=2kB --l1i_assoc=1 -c ./benchmarks/dijkstra/dijkstra_small -o ./benchmarks/dijkstra/input.dat
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Shortest path is 1 in cost. Path is:  0 41 45 51 50
+Shortest path is 0 in cost. Path is:  1 58 57 20 40 17 65 73 36 46 10 38 41 45 51
+Shortest path is 1 in cost. Path is:  2 71 47 79 23 77 1 58 57 20 40 17 52
+Shortest path is 2 in cost. Path is:  3 53
+Shortest path is 1 in cost. Path is:  4 85 83 58 33 13 19 79 23 77 1 54
+Shortest path is 3 in cost. Path is:  5 26 23 77 1 58 99 3 21 70 55
+Shortest path is 3 in cost. Path is:  6 42 80 77 1 58 99 3 21 70 55 56
+Shortest path is 0 in cost. Path is:  7 17 65 73 36 46 10 58 57
+Shortest path is 0 in cost. Path is:  8 37 63 72 46 10 58
+Shortest path is 1 in cost. Path is:  9 33 13 19 79 23 77 1 59
+Shortest path is 0 in cost. Path is:  10 60
+Shortest path is 5 in cost. Path is:  11 22 20 40 17 65 73 36 46 10 29 61
+Shortest path is 0 in cost. Path is:  12 37 63 72 46 10 58 99 3 21 70 62
+Shortest path is 0 in cost. Path is:  13 19 79 23 77 1 58 99 3 21 70 55 12 37 63
+Shortest path is 1 in cost. Path is:  14 38 41 45 51 68 2 71 47 79 23 77 1 58 33 13 92 64
+Shortest path is 1 in cost. Path is:  15 13 92 94 11 22 20 40 17 65
+Shortest path is 3 in cost. Path is:  16 41 45 51 68 2 71 47 79 23 77 1 58 33 32 66
+Shortest path is 0 in cost. Path is:  17 65 73 36 46 10 58 33 13 19 79 23 91 67
+Shortest path is 1 in cost. Path is:  18 15 41 45 51 68
+Shortest path is 2 in cost. Path is:  19 69
+Exiting @ tick 142967010500 because exiting with last active thread context
